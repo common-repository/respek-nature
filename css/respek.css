@@ -1,0 +1,975 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,400,600|Roboto:700,500,400');
+
+.respek_outline {
+  border-radius: var(--p-border-radius-wide, 3px);
+  box-shadow: var(--p-card-shadow, 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15));
+  outline: 0.1rem solid transparent;
+}
+
+.spek_branch {
+  background: cloudinary-url('respek/leaf.png', ("quality": "auto", "fetch_format": "auto", "crop": "crop", "gravity": "south_east", "width": "120", "height": "100"));
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+  left: auto;
+  width: 120px;
+  height: 100px;
+  /* min-width: 70px; */
+  /* padding: 10px; */
+  margin: auto 0;
+}
+
+.loader {
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid #637e36;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+[data-respek-button] {
+  border-radius: var(--p-border-radius-wide, 3px);
+  box-shadow: var(--p-card-shadow, 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15));
+  outline: 0.1rem solid transparent;
+
+  background: white;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  margin: 20px 0;
+  min-height: 100px;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  /* Firefox */
+  -webkit-animation: fadein 1s;
+  /* Safari and Chrome */
+  -o-animation: fadein 1s;
+  /* Opera */
+
+  div,
+  img,
+  span {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    /* Firefox */
+    -webkit-animation: fadein 1s;
+    /* Safari and Chrome */
+    -o-animation: fadein 1s;
+    /* Opera */
+  }
+   a {
+    color: #031a14;
+    font-weight: 500;
+}
+
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* block */
+.v174_1 {
+  /* width: 875px; */
+  /* height: 93px; */
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  margin: 20px 0;
+}
+
+.v172_22 {
+  width: 875px;
+  height: 92px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v172_26 {
+
+  color: black;
+  position: relative;
+  padding: 28px 0;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+  margin: auto 25px;
+  height: 100px;
+}
+
+.v172_23 {
+  height: 43px;
+  opacity: 1;
+  position: relative;
+  margin: auto 30px auto 0;
+  text-align: center;
+}
+
+.v172_24 {
+  width: 168px;
+  height: 43px;
+  background: rgba(140, 199, 63, 1);
+  opacity: 1;
+  /* position: relative; */
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  padding: 10px;
+}
+
+.v172_25 {
+  width: 157px;
+  color: rgba(255, 255, 255, 1);
+  /* position: relative; */
+  /* top: 13px; */
+  /* left: 5px; */
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+
+.v172_36 {
+  width: 5px;
+  height: auto;
+  background: #021a13;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+
+}
+
+.v172_37 {
+  width: 8px;
+  height: auto;
+  background: #8cc73f;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  // /* left: 18px; */
+  overflow: hidden;
+}
+
+/* Thanks */
+.v174_2 {
+  width: 875px;
+  height: 93px;
+  background: rgba(255, 255, 255, 1);
+  border: 0.3px solid #ccc;
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v172_45 {
+  width: 75px;
+  min-width: 75px;
+  height: 75px;
+  background: cloudinary-url('respek_logo_dark.png', ("quality": "auto", "fetch_format": "auto", "crop": "scale", "width": "75", "height": "75"));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  margin: auto;
+}
+
+.v172_43 {
+  width: 18px;
+  height: 93px;
+  background: rgba(2.000000118277967, 26.000000350177288, 19.0000007674098, 1);
+  ;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  overflow: hidden;
+  display: grid;
+}
+
+.v172_44 {
+  width: 18px;
+  height: 93px;
+  background: rgba(140, 199, 63, 1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  overflow: hidden;
+  display: flex;
+}
+
+.v172_39 {
+
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  display: flex;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v172_39 span {
+  POSITION: relative;
+  LEFT: 40px;
+  top: 23px;
+
+  display: flex;
+}
+
+.v172_39 span a {
+  display: contents;
+}
+
+
+#e130_2 {
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  width: 874.6115112304688px;
+  height: 324.531982421875px;
+  /* position: absolute;
+    left: 0.3078240752220154px;
+    top: 0.5335262417793274px; */
+}
+
+#contribute-button.green{
+  background-color: #637d4e;
+  border-radius: 20px;
+}
+
+
+#respek_button.respek_logo {
+  max-width: none;
+  height: 70px;
+  margin: auto;
+}
+
+span.make.make_respek_default {
+  margin: auto;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #5f8035;
+  text-decoration: none !important;
+}
+
+.respek_container .form-control {
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #5f8035;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+
+.respek_container input[type="checkbox"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: var(--form-background);
+  /* Not removed via appearance */
+  margin: 0;
+
+  font: inherit;
+  color: #5f8035;
+  width: 26px;
+  height: 26px;
+  border: 3px solid #5f8035;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid !important;
+  place-content: center;
+
+  font-size: 20px;
+  padding: 2px;
+}
+p#respek_offset_field {
+  margin: auto;
+  width: 50px;
+  height: 30px;
+}
+
+#respek_offset_field span.optional {
+  display: none;
+}
+
+#respek_offset_field a:link {
+  text-decoration: none !important;
+}
+.respek_checkbox_container .hentry .entry-content a:link, .make_respek_default {
+  text-decoration: none !important;
+}
+
+.respek_container input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  
+  /* Windows High Contrast Mode */
+  background-color: #5f8035;
+}
+
+.respek_container input[type="checkbox"]:checked::before {
+  transform: scale(1);
+  
+}
+
+span.respek_checkbox_container.respek_checkbox_container_default {
+  display: flex;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  width: 300px;
+
+}
+
+
+.respek_container input[type="checkbox"]:focus {
+  outline: 0px; /*max(0px, 0.15em) solid currentColor; */
+  outline-offset: 0px; /*max(0px, 0.15em);*/
+}
+
+.respek_container.checkbox {
+  width: 22px;
+  height: 22px;
+  background: #5f8035;
+  box-shadow: inset 0px 2px 1px rgb(96 100 104 / 30%);
+  border-radius: 3px !important;
+  margin: 10px 0px 14px 8px;
+}
+div#default_respek_temp {
+  display: flex;
+}
+
+/* #dark_respek_logo {
+  opacity: 1;
+  width: 240px;
+  height: 253px;
+  position: absolute;
+  right: 65px;
+  top: 42px;
+  background-image: cloudinary-url('respek_logo_dark.png', ("quality": "auto", "fetch_format": "auto","crop": "scale", "width": "240", "height": "253"));
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+
+} */
+
+#light_respek_logo {
+  opacity: 1;
+  width: 240px;
+  height: 253px;
+  position: absolute;
+  left: 461.0009765625px;
+  top: 42.2005615234375px;
+  background-image: cloudinary-url('respek_logo_light.png', ("quality": "auto", "fetch_format": "auto","crop": "scale", "width": "240", "height": "253"));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tooltip {
+  display: inline;
+  -webkit-perspective: 500px;
+  -moz-perspective: 500px;
+  perspective: 500px;
+}
+.tooltip:hover {
+  cursor: pointer;
+}
+.tooltip:hover .tooltip__content {
+  -webkit-transform: translate3d(-50%, -10%, 0);
+  -moz-transform: translate3d(-50%, -10%, 0);
+  -ms-transform: translate3d(-50%, -10%, 0);
+  -o-transform: translate3d(-50%, -10%, 0);
+  transform: translate3d(-50%, -10%, 0);
+  opacity: 1;
+  pointer-events: auto;
+}
+.tooltip__content {
+  font-family: Montserrat, Roboto, sans-serif;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  transition: all 200ms ease;
+  -webkit-transform: translate3d(-50%, 0%, 0);
+  -moz-transform: translate3d(-50%, 0%, 0);
+  -ms-transform: translate3d(-50%, 0%, 0);
+  -o-transform: translate3d(-50%, 0%, 0);
+  transform: translate3d(-50%, 0%, 0);
+  -webkit-transform-origin: 0 10px;
+  -moz-transform-origin: 0 10px;
+  -ms-transform-origin: 0 10px;
+  -o-transform-origin: 0 10px;
+  transform-origin: 0 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #2f2f2f;
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  left: 50%;
+  opacity: 0;
+  padding: 10px 20px;
+  pointer-events: none;
+  position: absolute;
+  text-align: left;
+  bottom: 80%;
+  width: 350px;
+  z-index: 999999;
+}
+.tooltip__content:before {
+  border-color: transparent;
+  border-top-color: #fff;
+  border-style: solid;
+  border-width: 10px;
+  content: " ";
+  display: block;
+  height: 0;
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  bottom: -20px;
+  width: 0;
+}
+.tooltip__content:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+}
+.tooltip__content:hover {
+  -webkit-transform: rotateX(0deg) translate3d(-50%, -10%, 0);
+  -moz-transform: rotateX(0deg) translate3d(-50%, -10%, 0);
+  -ms-transform: rotateX(0deg) translate3d(-50%, -10%, 0);
+  -o-transform: rotateX(0deg) translate3d(-50%, -10%, 0);
+  transform: rotateX(0deg) translate3d(-50%, -10%, 0);
+  opacity: 1;
+  pointer-events: auto;
+}
+.dp-flex{
+  display: inline-flex !important;
+}
+.popup-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 875px;
+  max-width: 875px;
+  height: auto;
+  text-align: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 1rem 1rem 0 2rem;
+  z-index: 100;
+  display: none;
+  border-radius: 10px;
+  min-height: 375px;
+}  
+.popup-content .content-wraper{
+  width: 60%;
+  /* padding-left: 3rem; */
+  text-align: left;
+}
+.popup-content .card-title h1{
+  font-size: 36px;
+  font-family: Montserrat, Roboto, sans-serif;
+  font-weight: 600;
+  color: #020605;
+  letter-spacing: -1px;
+  line-height: 43.88px;
+}
+.popup-content .card-content p{
+  margin: 0;
+}
+.popup-img{
+  width: 40%;
+  margin: auto;
+  min-height: 375px;
+  border-radius: 0 10px 10px 0;
+}   
+.popup-img .respek-logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.popup-img .respek-logo{
+  width: 65%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.title-wrapper h1{
+  font-size: 20px;
+  font-weight: bold;
+}     
+.close-btn {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    background-color: #c83f3f;
+    color: #fff;
+    border-radius: 10%;
+    padding: 0px 8px 2px 8px;
+    z-index: 1;
+}
+.close-btn:hover{
+  cursor: pointer;
+}
+#overlay {
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  z-index: 2; 
+  cursor: pointer; 
+}
+#overlay p{
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  font-size: 3rem;
+  top: 50%;
+  position: relative;
+}
+.success-popup{
+  position: fixed;;
+  right: 0;
+  margin-left:-150px;
+  width:200px;
+  background: #699F1E;
+  color:#fff;
+  font-weight: bold;
+  font-size: 16px;
+  z-index:100;
+  padding: 1.5rem;
+  display:none;
+  border-radius: 5px;
+}
+.popup-setting{
+  display: none;
+}
+.card-footer{
+  top: 3rem;
+  position: relative;
+}
+.card .footer-btn:first-child{
+  font-family: Montserrat, Roboto, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid #031a14;
+  padding: 11px 30px 8px 30px;
+  border-radius: 20px;
+  margin: 1rem;
+  color: #fff;
+  background: #031a14;
+  text-decoration: none;
+}
+.card .footer-btn:last-child{
+  font-family: Montserrat, Roboto, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid #031a14;
+  padding: 11px 30px 8px 30px;
+  border-radius: 20px;
+  margin: 1rem;
+  color: #031a14;
+  background: #fff;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.chckbx-disabled{
+  pointer-events: none;
+}
+/* new popup */
+#e158_0 {
+  opacity: 1;
+  /* max-width: 875px; */
+  /* min-height: 325px; */
+  position: relative;
+  background-color: white;
+  margin: 0 auto;
+  display: block !important;
+  border-radius: 20px 0 0 20px;
+  font-family: Montserrat;
+  padding: 35px 75px;
+  min-width: 700px;
+  /* width: 720px; */
+  line-height: 22.186px;
+}
+
+#e130_2 {
+  background-color: white;
+  opacity: 1;
+  width: 874.6115112304688px;
+  height: 324.531982421875px
+}
+
+#e130_8 {
+  opacity: 1;
+  width: 448px;
+  position: relative;
+  display: inline-block
+}
+
+#e130_6 {
+  opacity: 1;
+  width: 448px
+}
+
+#e130_6 button {
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+#contribute-button,
+button#thanks-button {
+  color: white;
+  opacity: 1;
+  /* width: 167px; */
+  position: relative;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0;
+  background: none;
+  line-height: 26px !important;
+  border: 1.5px solid #031a14;
+  background-color: #031a14;
+  height: 43px;
+  padding: 8px 20px;
+}
+
+#contribute-button.green {
+  background-color: #637d4e;
+  border-radius: 20px;
+}
+
+button#no-thanks-button {
+  position: relative;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 14px;
+  border: 1.5px solid #031a14;
+  /* width: 158px; */
+  height: 43px;
+  background-color: white;
+  line-height: 26px !important;
+  margin: 0 10px;
+  color: #031a14;
+  padding: 8px 20px;
+}
+
+button#thanks-button {
+  left: 0px
+}
+
+a.learn-more {
+  font-size: 13.3333px;
+  padding: 3px 0px;
+  color: rgba(0, 0, 0, 0.45);
+  /* display: block; */
+  font-family: Montserrat;
+  font-style: normal;
+  margin: auto;
+}
+
+#e130_9 {
+  color: black;
+  opacity: 1;
+  width: 360px;
+  position: relative;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  display: block;
+  margin: 6px 0 10px
+}
+
+#e130_9 {
+  font-size: 14px;
+}
+
+#e130_5 {
+  color: #020605;
+  opacity: 1;
+  width: 416px;
+  height: 118px;
+  position: relative;
+  font-family: Montserrat, Roboto, sans-serif;
+  font-weight: 600;
+  text-align: left;
+  font-size: 36px;
+  letter-spacing: -1px;
+  line-height: 43.88px;
+  display: inline-block;
+}
+
+#e130_3 {
+  opacity: 1;
+  width: 370px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: -1px;
+  background-image: url(https://res.cloudinary.com/respek-nature/image/asset/c_scale,f_auto,q_auto,w_370/popup_spek_progressive-8f658b7e00ee8d46361747a568f4e220.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block
+}
+
+#dark_respek_logo {
+  opacity: 1;
+  width: 240px;
+  height: 253px;
+  position: absolute;
+  right: 65px;
+  top: 42px;
+  background-image: url(https://res.cloudinary.com/respek-nature/image/asset/c_scale,f_auto,h_253,q_auto,w_240/respek_logo_dark-74f1570902d3f154df21f7ea4f92d205.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block
+}
+
+#light_respek_logo {
+  opacity: 1;
+  width: 240px;
+  height: 253px;
+  position: absolute;
+  left: 461.0009765625px;
+  top: 42.2005615234375px;
+  background-image: url(/respek_logo_light.png);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+button#contribute-button:focus {
+  border: 0;
+  outline: -webkit-focus-ring-color auto 0px;
+  outline-style: solid !important
+}
+
+.pico-content {
+  display: none;
+  padding: 0 !important;
+  border-radius: 20px 0 0 20px !important;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s
+}
+/* end */
+@media only screen and (max-width: 800px) {
+  .pico-content {
+    border-radius: 20px 20px 0 0 !important;
+  }
+
+
+  .respek_infobox_container {
+    left: 0 !important;
+    top: 0 !important;
+    position: fixed;
+    width: 100% !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+    transform: none !important; }
+
+  #e158_0 {
+    width: 372px;
+    height: 655px;
+    border-radius: 20px 20px 0;
+    padding: 20px;
+    min-width: 300px;
+  }
+
+  #e130_9 {
+
+    color: black;
+    opacity: 1;
+    width: 316px;
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    display: block;
+    margin: 18px 10px 17px 10px;
+  }
+
+  #e130_5{
+    font-size: 33px;
+    margin: 20px 10px;
+  }
+
+  #e130_3 {
+    width: 112%;
+    height: 345px;
+    left: -20px;
+    top: 21px;
+    right: 0px;
+    background-position: center;
+    position: relative;
+    margin: 0px;
+    /* width: 112%;
+    height: 345px;
+    left: -20px;
+    top: 21px;
+    right: 0px;
+    background-image: url(https://res.cloudinary.com/respek-nature/image/asset/c_scale,f_auto,q_auto,w_370/popup_spek_progressive-8f658b7e00ee8d46361747a568f4e220.jpg);
+    background-position: center;
+    position: relative;
+    margin: 0px; */
+  }
+
+
+  #dark_respek_logo {
+    margin: 350px 0 auto;
+    bottom: 20px;
+    /* position: sticky; */
+    background-size: contain;
+  }
+
+  .v172_23 {
+    margin: auto 10px;
+  }
+
+  .v172_26 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto 0 auto 15px;
+    height: 80px;
+    min-width: 170px;
+    display: table;
+    line-height: 20px;
+  }
+
+  .spek_branch {
+    position: absolute;
+    width: 120px;
+    opacity: 0.4;
+    height: 125px;
+    margin: auto 0;
+    bottom: 0;
+  }
+
+  #contribute-button.green {
+    font-size: 12px;
+    width: 140px;
+  }
+  [data-respek-button] a {
+    color: #031a14;
+    font-weight: 600;
+  }
+  .v172_45 {
+    min-width: 65px;
+    background-size: contain;
+  }
+}

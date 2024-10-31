@@ -1,0 +1,259 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: respek-nature\n"
+"Language: en\n"
+
+#. Plugin Name of the plugin
+#: 
+msgid "ReSpek Nature WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: 
+msgid "https://github.com/respek-nature/respek-nature"
+msgstr ""
+
+#. Description of the plugin
+#: 
+msgid "A WooCommerce plugin to integrate ReSpek Nature"
+msgstr ""
+
+#. Author URI of the plugin
+#: 
+msgid "https://www.respeknature.org/"
+msgstr ""
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:31
+msgid "Manage Features of this plugin."
+msgstr ""
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:36
+msgid "Respek Popup Settings."
+msgstr ""
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:139
+msgid "All"
+msgstr ""
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:140
+msgid "Cart"
+msgstr ""
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:141
+msgid "Checkout"
+msgstr ""
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:161
+#: inc/Base/Enqueue.php:40
+msgid "Cancel Billing"
+msgstr ""
+
+#: inc/Base/Enqueue.php:38
+msgid "Authorizing"
+msgstr ""
+
+#: inc/Base/Enqueue.php:39
+msgid "Cancelling"
+msgstr ""
+
+#: inc/Base/Enqueue.php:41
+msgid "Please complete the billing authorisation at the following"
+msgstr ""
+
+#: inc/Base/Enqueue.php:42
+msgid "link"
+msgstr ""
+
+#: inc/Pages/RespekSettings.php:99
+#: inc/Pages/RespekSettings.php:106
+msgid "ReSpek Nature Billing"
+msgstr ""
+
+#: inc/Pages/RespekSettings.php:108
+msgid "Authorize"
+msgstr ""
+
+#: respek_nature.php:361
+#: respek_nature.php:365
+#: respek_nature.php:370
+#: respek_nature.php:453
+#: respek_nature.php:466
+#: respek_nature.php:485
+msgid "ReSpek Nature Carbon Offset"
+msgstr ""
+
+#: respek_nature.php:362
+msgid "ReSpek Nature Carbon Offset matched by merchant"
+msgstr ""
+
+#: respek_nature.php:366
+msgid "ReSpek Nature Carbon Offset on merchant"
+msgstr ""
+
+#: templates/admin/respek_settings.php:29
+#: templates/admin/respek_settings.php:36
+msgid "ReSpek Nature is collecting donations"
+msgstr ""
+
+#: templates/admin/respek_settings.php:42
+#: templates/admin/respek_settings.php:49
+msgid "Matching: Contribute together with your customer"
+msgstr ""
+
+#: templates/admin/respek_settings.php:50
+msgid "\"Matching\" - ReSpek will charge you the merchant and your who opts in."
+msgstr ""
+
+#: templates/admin/respek_settings.php:55
+#: templates/admin/respek_settings.php:62
+msgid "On Us: Contribute on behalf of your customers"
+msgstr ""
+
+#: templates/admin/respek_settings.php:63
+#: templates/admin/respek_settings.php:76
+msgid "\"On Us\" - ReSpek will charge you the merchant and not recover from the customer"
+msgstr ""
+
+#: templates/admin/respek_settings.php:68
+#: templates/admin/respek_settings.php:75
+msgid "Manage Popup settings."
+msgstr ""
+
+#: templates/admin/respek_settings.php:81
+#: templates/admin/respek_settings.php:88
+msgid "Show popup"
+msgstr ""
+
+#: templates/admin/respek_settings.php:95
+msgid "Time delay before showing popup (seconds)"
+msgstr ""
+
+#: templates/admin/respek_settings.php:108
+#: templates/admin/respek_settings.php:115
+msgid "Page to show popup"
+msgstr ""
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:97
+#: templates/admin/respek_settings.php:121
+#: templates/admin/respek_settings.php:128
+msgid "Contributions"
+msgstr ""
+
+#: templates/admin/respek_settings.php:134
+#: templates/admin/respek_settings.php:141
+msgid "Customer Message"
+msgstr ""
+
+#: templates/admin/respek_settings.php:147
+#: templates/admin/respek_settings.php:154
+#: templates/admin/respek_settings.php:156
+msgid "Preview Popup"
+msgstr ""
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:114
+msgid "minutes"
+msgstr ""
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:158
+msgid "ReSpek Nature is connected to %s"
+msgstr ""
+
+#: inc/Base/Enqueue.php:39
+msgid "Canceling"
+msgstr ""
+
+#: inc/Base/Enqueue.php:41
+msgid "Please complete the billing authorization at the following"
+msgstr ""
+
+#: inc/Base/Enqueue.php:43
+#: templates/admin/respek_settings.php:184
+#: templates/respek_popup_template_default.php:14
+msgid "Contribute"
+msgstr ""
+
+#: inc/Base/Enqueue.php:44
+msgid "Purchase and plant a spekboom in the Karoo to offset your CO2."
+msgstr ""
+
+#: inc/Base/Enqueue.php:45
+msgid "Contribution"
+msgstr ""
+
+#: inc/Base/Enqueue.php:46
+msgid "Our Gift to Nature"
+msgstr ""
+
+#: inc/Base/Enqueue.php:47
+msgid "Purchase and plant a spekboom in the Karoo to offset your CO2. We will match you, spekboom for spekboom"
+msgstr ""
+
+#: inc/Pages/RespekSettings.php:49
+msgid "Dashboard"
+msgstr ""
+
+#: inc/Pages/RespekSettings.php:86
+msgid "Respek Billing Settings"
+msgstr ""
+
+#: inc/Pages/RespekSettings.php:107
+msgid "Click 'Authorize' to complete the installation and authorize billing to allow us to collect contributions made by your customers."
+msgstr ""
+
+#: respek_nature.php:69
+msgid "Add %s to your purchase and plant a spekboom in the Karoo to offset your CO2. We will match you, spekboom for spekboom."
+msgstr ""
+
+#: templates/admin/respek_settings.php:102
+msgid "Minutes after opt-out, to show popup again"
+msgstr ""
+
+#: templates/admin/respek_settings.php:160
+msgid "Settings Saved!"
+msgstr ""
+
+#: templates/admin/respek_settings.php:177
+#: templates/respek_popup_template_default.php:7
+msgid "Offset Carbon."
+msgstr ""
+
+#: templates/admin/respek_settings.php:177
+#: templates/respek_popup_template_default.php:7
+msgid "Restore Nature."
+msgstr ""
+
+#: templates/admin/respek_settings.php:177
+#: templates/respek_popup_template_default.php:7
+msgid "Plant a Spekboom."
+msgstr ""
+
+#: templates/admin/respek_settings.php:185
+#: templates/respek_popup_template_default.php:15
+msgid "No thanks"
+msgstr ""
+
+#: templates/respek_button_template_default.php:23
+msgid "Add %s to offset carbon & plant a spekboom."
+msgstr ""
+
+#: templates/respek_popup_template_default.php:15
+#: templates/respek_popup_template_default.php:37
+msgid "THANKS!"
+msgstr ""
+
+#: templates/respek_popup_template_default.php:36
+msgid "CONTRIBUTE"
+msgstr ""
+
+#: templates/respek_popup_template_default.php:37
+msgid "NO THANKS"
+msgstr ""
+
+#: templates/respek_popup_template_default.php:39
+msgid "Learn more"
+msgstr ""
+

@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: respek-nature\n"
+"Language: af\n"
+
+#. Plugin Name of the plugin
+#: 
+msgid "ReSpek Nature WooCommerce"
+msgstr "ReSpek Nature WooCommerce"
+
+#. Plugin URI of the plugin
+#: 
+msgid "https://github.com/respek-nature/respek-nature"
+msgstr "’n WooCommerce-inprop om ReSpek Nature te integreer"
+
+#. Description of the plugin
+#: 
+msgid "A WooCommerce plugin to integrate ReSpek Nature"
+msgstr "’n WooCommerce-inprop om ReSpek Nature te integreer"
+
+#. Author URI of the plugin
+#: 
+msgid "https://www.respeknature.org/"
+msgstr "https://www.respeknature.org/"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:31
+msgid "Manage Features of this plugin."
+msgstr "Bestuur kenmerke van hierdie inprop."
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:36
+msgid "Respek Popup Settings."
+msgstr "Respekteer opspringinstellings."
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:139
+msgid "All"
+msgstr "Almal"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:140
+msgid "Cart"
+msgstr "Karretjie"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:141
+msgid "Checkout"
+msgstr "Uitteken"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:161
+#: inc/Base/Enqueue.php:40
+msgid "Cancel Billing"
+msgstr "Kanselleer fakturering"
+
+#: inc/Base/Enqueue.php:38
+msgid "Authorizing"
+msgstr "Magtiging"
+
+#: inc/Base/Enqueue.php:42
+msgid "link"
+msgstr "skakel"
+
+#: inc/Pages/RespekSettings.php:99
+#: inc/Pages/RespekSettings.php:106
+#, fuzzy
+msgid "ReSpek Nature Billing"
+msgstr "ReSpek Nature Rekening"
+
+#: inc/Pages/RespekSettings.php:108
+msgid "Authorize"
+msgstr "Magtig"
+
+#: respek_nature.php:356
+#: respek_nature.php:360
+#: respek_nature.php:365
+#: respek_nature.php:450
+#: respek_nature.php:461
+msgid "ReSpek Nature Carbon Offset"
+msgstr "ReSpek Nature Koolstofverrekening"
+
+#: respek_nature.php:357
+msgid "ReSpek Nature Carbon Offset matched by merchant"
+msgstr "ReSpek Nature Koolstofverrekening wat deur handelaar ooreenstem"
+
+#: respek_nature.php:361
+msgid "ReSpek Nature Carbon Offset on merchant"
+msgstr "ReSpek Nature Koolstofverrekening op handelaar"
+
+#: templates/admin/respek_settings.php:45
+#: templates/admin/respek_settings.php:52
+msgid "ReSpek Nature is collecting donations"
+msgstr "ReSpek Nature samel skenkings in"
+
+#: templates/admin/respek_settings.php:58
+#: templates/admin/respek_settings.php:65
+msgid "Matching: Contribute together with your customer"
+msgstr "Pas: Dra saam met jou kliënt by"
+
+#: templates/admin/respek_settings.php:66
+msgid "\"Matching\" - ReSpek will charge you the merchant and your who opts in."
+msgstr "\"Pas\" - ReSpek sal jou die handelaar en jou wie inteken, hef."
+
+#: templates/admin/respek_settings.php:71
+#: templates/admin/respek_settings.php:78
+msgid "On Us: Contribute on behalf of your customers"
+msgstr "Op ons: Dra by namens jou kliënte"
+
+#: templates/admin/respek_settings.php:79
+#: templates/admin/respek_settings.php:92
+msgid "\"On Us\" - ReSpek will charge you the merchant and not recover from the customer"
+msgstr "\"Op Ons\" - ReSpek sal jou die handelaar hef en nie van die kliënt verhaal nie"
+
+#: templates/admin/respek_settings.php:84
+#: templates/admin/respek_settings.php:91
+msgid "Manage Popup settings."
+msgstr "Bestuur opspringinstellings."
+
+#: templates/admin/respek_settings.php:97
+#: templates/admin/respek_settings.php:104
+msgid "Show popup"
+msgstr "Wys opspringer"
+
+#: templates/admin/respek_settings.php:111
+msgid "Time delay before showing popup (seconds)"
+msgstr "Tydvertraging voordat opspringer gewys word (sekondes)"
+
+#: templates/admin/respek_settings.php:124
+#: templates/admin/respek_settings.php:131
+msgid "Page to show popup"
+msgstr "Bladsy om opspringer te wys"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:97
+#: templates/admin/respek_settings.php:137
+#: templates/admin/respek_settings.php:144
+msgid "Contributions"
+msgstr "Bydraes"
+
+#: templates/admin/respek_settings.php:150
+#: templates/admin/respek_settings.php:157
+msgid "Customer Message"
+msgstr "Kliënt Boodskap"
+
+#: templates/admin/respek_settings.php:163
+#: templates/admin/respek_settings.php:170
+#: templates/admin/respek_settings.php:172
+msgid "Preview Popup"
+msgstr "Voorskou opspringer"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:114
+msgid "minutes"
+msgstr "minute"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:158
+msgid "ReSpek Nature is connected to %s"
+msgstr "ReSpek Nature is gekoppel aan %s"
+
+#: inc/Base/Enqueue.php:39
+msgid "Canceling"
+msgstr "Kanselleer tans"
+
+#: inc/Base/Enqueue.php:41
+msgid "Please complete the billing authorization at the following"
+msgstr "Voltooi asseblief die faktureringmagtiging by die volgende"
+
+#: inc/Base/Enqueue.php:43
+#: templates/admin/respek_settings.php:202
+#: templates/respek_popup_template_default.php:14
+msgid "Contribute"
+msgstr "Dra by"
+
+#: inc/Base/Enqueue.php:44
+msgid "Purchase and plant a spekboom in the Karoo to offset your CO2."
+msgstr "Koop en plant ’n spekboom in die Karoo om jou CO<sub>2</sub> te verreken."
+
+#: inc/Base/Enqueue.php:45
+msgid "Contribution"
+msgstr "Bydrae"
+
+#: inc/Base/Enqueue.php:46
+msgid "Our Gift to Nature"
+msgstr "Ons geskenk aan die natuur"
+
+#: inc/Base/Enqueue.php:47
+msgid "Purchase and plant a spekboom in the Karoo to offset your CO2. We will match you, spekboom for spekboom"
+msgstr "Koop en plant ’n spekboom in die Karoo om jou CO2 te verreken. Ons sal jou pas, spekboom vir spekboom"
+
+#: inc/Pages/RespekSettings.php:49
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: inc/Pages/RespekSettings.php:107
+msgid "Click 'Authorize' to complete the installation and authorize billing to allow us to collect contributions made by your customers."
+msgstr "Klik ‘Magtig’ om die installasie te voltooi en fakturering te magtig sodat ons bydraes wat deur jou klante gemaak is, kan insamel."
+
+#: respek_nature.php:69
+msgid "Add %s to your purchase and plant a spekboom in the Karoo to offset your CO2. We will match you, spekboom for spekboom."
+msgstr "Voeg %s by jou aankoop en plant 'n spekboom in die Karoo om jou CO2 te verreken. Ons sal jou pas, spekboom vir spekboom."
+
+#: templates/admin/respek_settings.php:118
+msgid "Minutes after opt-out, to show popup again"
+msgstr "Minute na onttrekking om opspringer weer te wys"
+
+#: templates/admin/respek_settings.php:176
+msgid "Settings Saved!"
+msgstr "Respekteer opspringinstellings!"
+
+#: templates/admin/respek_settings.php:27
+#: templates/admin/respek_settings.php:195
+#: templates/respek_popup_template_default.php:7
+msgid "Offset Carbon."
+msgstr "Offset koolstof."
+
+#: templates/admin/respek_settings.php:28
+#: templates/admin/respek_settings.php:195
+#: templates/respek_popup_template_default.php:7
+msgid "Restore Nature."
+msgstr "Herstel die natuur."
+
+#: templates/admin/respek_settings.php:29
+#: templates/admin/respek_settings.php:195
+#: templates/respek_popup_template_default.php:7
+msgid "Plant a Spekboom."
+msgstr "Plant 'n Spekboom."
+
+#: templates/admin/respek_settings.php:203
+#: templates/respek_popup_template_default.php:15
+msgid "No thanks"
+msgstr "Nee dankie"
+
+#: templates/respek_button_template_default.php:23
+msgid "Add %s to offset carbon & plant a spekboom."
+msgstr "Voeg %s by om koolstof te verreken en 'n spekboom te plant."
+
+#: templates/respek_popup_template_default.php:15
+#: templates/respek_popup_template_default.php:37
+msgid "THANKS!"
+msgstr "DANKIE!"
+
+#: templates/respek_popup_template_default.php:36
+msgid "CONTRIBUTE"
+msgstr "BYDRA"
+
+#: templates/respek_popup_template_default.php:37
+msgid "NO THANKS"
+msgstr "NEE DANKIE"
+
+#: templates/admin/respek_settings.php:33
+#: templates/respek_popup_template_default.php:39
+msgid "Learn more"
+msgstr "Leer meer"
+
+#: inc/Pages/RespekSettings.php:86
+msgid "ReSpek Nature Settings"
+msgstr "ReSpek Natuur-instellings"
+

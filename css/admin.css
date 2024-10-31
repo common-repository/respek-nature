@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,400,600|Roboto:700,500,400');
+
+.toplevel_page_respek-nature.menu-top-first .wp-menu-image.dashicons-before img{
+  /* filter: contrast(500%) brightness(150%) grayscale(100%) ; */
+  /* background-image: url(https://res.cloudinary.com/respek-nature/image/asset/c_scale,f_auto,h_253,q_auto,w_240/respek_logo_dark-74f1570902d3f154df21f7ea4f92d205.png) !important; */
+  background-size: cover;
+  padding: 0px !important;
+  opacity: 1 !important;
+  content: '' !important;
+}
+
+#adminmenu .wp-menu-image img {
+  max-width: 20px;
+}
+.toplevel_page_respek-nature #wpcontent{
+/* background-color: #E5EFE6; */
+}
+.toplevel_page_respek-nature .welcome-panel-header h2{
+  font-family: Montserrat, Roboto, sans-serif;
+  color: #30471c;
+}
+.toplevel_page_respek-nature .welcome-panel-content .logo{
+  margin: auto auto 0;
+
+}
+
+.toplevel_page_respek-nature .welcome-panel{
+  background-color: #E5EFE6;
+  color: #30471c
+  /* background-image: url(https://res.cloudinary.com/respek-nature/image/asset/popup_spek_progressive-8f658b7e00ee8d46361747a568f4e220.jpg); */
+  background-size: cover;
+    background-position-y: -410px;
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  border: 1px solid #5f7e373b;
+
+}
+
+
+.welcome-panel-header .v33_10 {
+    width: 450px;
+    color: #30471C;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+    /* margin: auto auto 50px 20px; */
+  
+}
+.card{
+  /* max-width: 750px !important; */
+
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+a.disabled {
+    pointer-events: none;
+}
+a:focus{
+  color: #608035 !important;
+}
+.auth-link:focus{
+  color: #608035;
+  font-weight: bold;
+}
+.auth-link{
+  color:#608035;
+  font-weight: bold;
+}
+.dp-flex{
+  display: inline-flex !important;
+}
+
+.toplevel_page_respek-nature .form-table{
+  
+  width: 60%;
+}
+.respek-welcome-panel {
+overflow: hidden;
+}
+.respek-welcome-panel::before {
+  content: url('https://res.cloudinary.com/respek-nature/image/asset/c_scale,f_auto,h_253,q_auto,w_240/respek_logo_dark-74f1570902d3f154df21f7ea4f92d205.png') !important;
+  position: absolute;
+  top: 34px !important;
+  right: -24px !important;
+  z-index: 0;
+  width: 300px;
+  height: 382px;
+  background-size: contain;
+}
+
+.respek-welcome-panel .welcome-panel-content {
+  height: 340px !important;
+  min-height: 340px !important;
+}
+.wrap .auth-form .form-table th{
+  width: 0;
+  padding: 0;
+}
+.wrap .auth-form .form-table td{
+  padding: 0;
+}
+.ui-toggle label{
+  display: none;
+}
+.button_auth-btn{
+  background-color: #fff;
+  color: #608035;
+  border: #608035 solid 1px;
+  padding: 14px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button_auth-btn:hover {
+  background-color: #608035;
+  color: #fff !important;
+}
+.ui-toggle .card{
+  display: inline-flex;
+  width: 100% !important;
+  max-width: none;
+  
+}
+.ui-toggle .field-wrapper-text{
+  max-width: 65%;
+  min-height: 80px;
+  margin: inherit;
+}
+.ui-toggle .field-wrapper{
+  position: absolute;
+  float: right;
+  right: 30px;
+}
+.ui-toggle .merchant_url{
+  margin: inherit;
+}
+.ui-toggle .card-title{
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.ui-toggle .textarea-field{
+  display: block;
+  min-height: 180px;
+}
+.ui-toggle .textarea-field .field-wrapper-text{
+  min-height: 40px;
+  margin-top: 10px;
+}
+.ui-toggle .textarea-field .field-wrapper{
+  position: relative;
+  float: left;
+  right: 0;
+}
+.ui-toggle .text-field .field-wrapper{
+  display: block;
+  position: relative;
+  float: left;
+  right: 0;
+}
+.ui-toggle .text-field{
+  min-height: 110px;
+  display: block;
+}
+
+.switch {
+  position: relative;
+  display: inline-block !important;
+  width: 60px;
+  height: 30px;
+  top:20px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.preview_popup_manager-btn{
+  background: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px;
+  margin-top: 2rem;
+}
+.save_popup-btn{
+  background: #608035;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px;
+  margin-top: 2rem;
+}
+.preview_popup_manager-btn:hover{
+  cursor: pointer;
+}
+.save_popup-btn:hover{
+  cursor: pointer;
+  background: #608035;
+  color: #fff;
+}
+input:checked + .slider {
+  background-color: #608035;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #608035;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.switch .is-active{
+  float: right;
+  position: absolute;
+  right: -35px;
+}
+.auth_card .merchant_url .is-active{
+  float: right;
+  position: relative;
+  right: -5px;
+  margin: 0;
+  margin-top: 0px;
+  margin-top: 5px;
+}
+.auth_card .merchant_url .spinner{
+  background-size: 15px 15px;
+}
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=index.css.map*/
+
+.popup-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 875px;
+  max-width: 875px;
+  height: auto;
+  text-align: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 1rem 1rem 0 2rem;
+  z-index: 100;
+  display: none;
+  border-radius: 10px;
+  min-height: 325px;
+}  
+.popup-content .content-wraper{
+  width: 60%;
+  /* padding-left: 3rem; */
+  text-align: left;
+}
+.popup-content .card-title h1{
+  font-size: 36px;
+  font-family: Montserrat, Roboto, sans-serif;
+  font-weight: 600;
+  color: #020605;
+  letter-spacing: -1px;
+  line-height: 43.88px;
+}
+.popup-content .card-content p{
+  margin: 0;
+}
+.popup-img{
+  width: 40%;
+  margin: auto;
+  min-height: 323px;
+  border-radius: 0 10px 10px 0;
+}   
+.popup-img .respek-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.popup-img .respek-logo {
+  width: 65%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.title-wrapper h1{
+  font-size: 20px;
+  font-weight: bold;
+}     
+.close-btn {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    background-color: #c83f3f;
+    color: #fff;
+    border-radius: 10%;
+    padding: 0px 8px 2px 8px;
+    z-index: 1;
+}
+.close-btn:hover{
+  cursor: pointer;
+}
+#overlay {
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  z-index: 2; 
+  cursor: pointer; 
+}
+#overlay p{
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  font-size: 3rem;
+  top: 50%;
+  position: relative;
+}
+.success-popup{
+  position: fixed;;
+  right: 0;
+  margin-left:-150px;
+  width:200px;
+  background: #699F1E;
+  color:#fff;
+  font-weight: bold;
+  font-size: 16px;
+  z-index:100;
+  padding: 1.5rem;
+  display:none;
+  border-radius: 5px;
+}
+.popup-setting{
+  display: none;
+}
+.card-footer{
+  top: 3rem;
+  position: relative;
+}
+.card .footer-btn:first-child{
+  font-family: Montserrat, Roboto, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid #031a14;
+  padding: 11px 30px 8px 30px;
+  border-radius: 20px;
+  margin: 1rem;
+  color: #fff;
+  background: #031a14;
+  text-decoration: none;
+}
+.card .footer-btn:last-child{
+  font-family: Montserrat, Roboto, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid #031a14;
+  padding: 11px 30px 8px 30px;
+  border-radius: 20px;
+  margin: 1rem;
+  color: #031a14;
+  background: #fff;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  right: 0;
+}

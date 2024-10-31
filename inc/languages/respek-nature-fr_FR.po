@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: respek-nature\n"
+"Language: fr\n"
+
+#. Plugin Name of the plugin
+#: 
+msgid "ReSpek Nature WooCommerce"
+msgstr "ReSpek Nature WooCommerce"
+
+#. Plugin URI of the plugin
+#: 
+msgid "https://github.com/respek-nature/respek-nature"
+msgstr "https://github.com/respek-nature/respek-nature"
+
+#. Description of the plugin
+#: 
+msgid "A WooCommerce plugin to integrate ReSpek Nature"
+msgstr "Un plugin WooCommerce pour intégrer ReSpek Nature"
+
+#. Author URI of the plugin
+#: 
+msgid "https://www.respeknature.org/"
+msgstr "https://www.respeknature.org/"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:31
+msgid "Manage Features of this plugin."
+msgstr "Gérer les fonctionnalités de ce plugin."
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:36
+msgid "Respek Popup Settings."
+msgstr "Paramètres contextuels Respek."
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:139
+msgid "All"
+msgstr "Tout"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:140
+msgid "Cart"
+msgstr "Chariot"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:141
+msgid "Checkout"
+msgstr "Vérifier"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:161
+#: inc/Base/Enqueue.php:40
+msgid "Cancel Billing"
+msgstr "Annuler la facturation"
+
+#: inc/Base/Enqueue.php:38
+msgid "Authorizing"
+msgstr "Autorisation"
+
+#: inc/Base/Enqueue.php:42
+msgid "link"
+msgstr "lien"
+
+#: inc/Pages/RespekSettings.php:99
+#: inc/Pages/RespekSettings.php:106
+#, fuzzy
+msgid "ReSpek Nature Billing"
+msgstr "Respek Nature Facturation"
+
+#: inc/Pages/RespekSettings.php:108
+msgid "Authorize"
+msgstr "Autoriser"
+
+#: respek_nature.php:356
+#: respek_nature.php:360
+#: respek_nature.php:365
+#: respek_nature.php:450
+#: respek_nature.php:461
+msgid "ReSpek Nature Carbon Offset"
+msgstr "Compensation de carbone ReSpek Nature"
+
+#: respek_nature.php:357
+msgid "ReSpek Nature Carbon Offset matched by merchant"
+msgstr "ReSpek Nature Carbon Offset égalé par le marchand"
+
+#: respek_nature.php:361
+msgid "ReSpek Nature Carbon Offset on merchant"
+msgstr "ReSpek Nature Carbon Offset sur le marchand"
+
+#: templates/admin/respek_settings.php:45
+#: templates/admin/respek_settings.php:52
+msgid "ReSpek Nature is collecting donations"
+msgstr "ReSpek Nature collecte des dons"
+
+#: templates/admin/respek_settings.php:58
+#: templates/admin/respek_settings.php:65
+msgid "Matching: Contribute together with your customer"
+msgstr "Matching : Contribuez avec votre client"
+
+#: templates/admin/respek_settings.php:66
+msgid "\"Matching\" - ReSpek will charge you the merchant and your who opts in."
+msgstr "\"Matching\" - ReSpek vous facturera le marchand et votre qui s'inscrira."
+
+#: templates/admin/respek_settings.php:71
+#: templates/admin/respek_settings.php:78
+msgid "On Us: Contribute on behalf of your customers"
+msgstr "On Us : Contribuez au nom de vos clients"
+
+#: templates/admin/respek_settings.php:79
+#: templates/admin/respek_settings.php:92
+msgid "\"On Us\" - ReSpek will charge you the merchant and not recover from the customer"
+msgstr "\"On Us\" - ReSpek vous facturera le marchand et ne récupérera pas auprès du client"
+
+#: templates/admin/respek_settings.php:84
+#: templates/admin/respek_settings.php:91
+msgid "Manage Popup settings."
+msgstr "Gérer les paramètres Popup."
+
+#: templates/admin/respek_settings.php:97
+#: templates/admin/respek_settings.php:104
+msgid "Show popup"
+msgstr "Afficher la fenêtre contextuelle"
+
+#: templates/admin/respek_settings.php:111
+msgid "Time delay before showing popup (seconds)"
+msgstr "Délai avant l'affichage de la fenêtre contextuelle (secondes)"
+
+#: templates/admin/respek_settings.php:124
+#: templates/admin/respek_settings.php:131
+msgid "Page to show popup"
+msgstr "Page pour afficher la fenêtre contextuelle"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:97
+#: templates/admin/respek_settings.php:137
+#: templates/admin/respek_settings.php:144
+msgid "Contributions"
+msgstr "Contributions"
+
+#: templates/admin/respek_settings.php:150
+#: templates/admin/respek_settings.php:157
+msgid "Customer Message"
+msgstr "Message client"
+
+#: templates/admin/respek_settings.php:163
+#: templates/admin/respek_settings.php:170
+#: templates/admin/respek_settings.php:172
+msgid "Preview Popup"
+msgstr "Aperçu de la fenêtre contextuelle"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:114
+msgid "minutes"
+msgstr "minutes"
+
+#: inc/Api/Callbacks/ManagerCallbacks.php:158
+msgid "ReSpek Nature is connected to %s"
+msgstr "ReSpek Nature est connecté à %s"
+
+#: inc/Base/Enqueue.php:39
+msgid "Canceling"
+msgstr "Annulation"
+
+#: inc/Base/Enqueue.php:41
+msgid "Please complete the billing authorization at the following"
+msgstr "Veuillez compléter l'autorisation de facturation à l'adresse suivante"
+
+#: inc/Base/Enqueue.php:43
+#: templates/admin/respek_settings.php:202
+#: templates/respek_popup_template_default.php:14
+msgid "Contribute"
+msgstr "Contribuer"
+
+#: inc/Base/Enqueue.php:44
+msgid "Purchase and plant a spekboom in the Karoo to offset your CO2."
+msgstr "Achetez et plantez un spekboom dans le Karoo pour compenser votre CO2."
+
+#: inc/Base/Enqueue.php:45
+msgid "Contribution"
+msgstr "Contribution"
+
+#: inc/Base/Enqueue.php:46
+msgid "Our Gift to Nature"
+msgstr "Notre cadeau à la nature"
+
+#: inc/Base/Enqueue.php:47
+msgid "Purchase and plant a spekboom in the Karoo to offset your CO2. We will match you, spekboom for spekboom"
+msgstr "Achetez et plantez un spekboom dans le Karoo pour compenser votre CO2. Nous vous correspondrons, spekboom pour spekboom"
+
+#: inc/Pages/RespekSettings.php:49
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: inc/Pages/RespekSettings.php:107
+msgid "Click 'Authorize' to complete the installation and authorize billing to allow us to collect contributions made by your customers."
+msgstr "Cliquez sur \"Autoriser\" pour terminer l'installation et autoriser la facturation afin de nous permettre de collecter les contributions de vos clients."
+
+#: respek_nature.php:69
+msgid "Add %s to your purchase and plant a spekboom in the Karoo to offset your CO2. We will match you, spekboom for spekboom."
+msgstr "Ajoutez %s à votre achat et plantez un spekboom dans le Karoo pour compenser votre CO2. Nous vous correspondrons, spekboom pour spekboom."
+
+#: templates/admin/respek_settings.php:118
+msgid "Minutes after opt-out, to show popup again"
+msgstr "Quelques minutes après la désactivation, pour afficher à nouveau la fenêtre contextuelle"
+
+#: templates/admin/respek_settings.php:176
+msgid "Settings Saved!"
+msgstr "Paramètres sauvegardés!"
+
+#: templates/admin/respek_settings.php:27
+#: templates/admin/respek_settings.php:195
+#: templates/respek_popup_template_default.php:7
+msgid "Offset Carbon."
+msgstr "Compenser le carbone."
+
+#: templates/admin/respek_settings.php:28
+#: templates/admin/respek_settings.php:195
+#: templates/respek_popup_template_default.php:7
+msgid "Restore Nature."
+msgstr "Restaurer la Nature."
+
+#: templates/admin/respek_settings.php:29
+#: templates/admin/respek_settings.php:195
+#: templates/respek_popup_template_default.php:7
+msgid "Plant a Spekboom."
+msgstr "Plantez un Spekboom."
+
+#: templates/admin/respek_settings.php:203
+#: templates/respek_popup_template_default.php:15
+msgid "No thanks"
+msgstr "Non merci"
+
+#: templates/respek_button_template_default.php:23
+msgid "Add %s to offset carbon & plant a spekboom."
+msgstr "Ajoutez %s pour compenser le carbone et plantez un spekboom."
+
+#: templates/respek_popup_template_default.php:15
+#: templates/respek_popup_template_default.php:37
+msgid "THANKS!"
+msgstr "MERCI!"
+
+#: templates/respek_popup_template_default.php:36
+msgid "CONTRIBUTE"
+msgstr "CONTRIBUER"
+
+#: templates/respek_popup_template_default.php:37
+msgid "NO THANKS"
+msgstr "NON MERCI"
+
+#: templates/admin/respek_settings.php:33
+#: templates/respek_popup_template_default.php:39
+msgid "Learn more"
+msgstr "Apprendre encore plus"
+
+#: inc/Pages/RespekSettings.php:86
+msgid "ReSpek Nature Settings"
+msgstr "Paramètres naturels de ReSpek"
+
